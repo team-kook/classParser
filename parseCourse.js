@@ -1,7 +1,7 @@
 const XLSX = require("xlsx")
 const fs = require('fs')
 
-const semester = "2018_Fall"
+const semester = "2019_Spring"
 let workbook = XLSX.readFile(__dirname + "/" + semester + ".xlsx")
 let worksheet = workbook.Sheets["Courses Offered"]
 
